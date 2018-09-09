@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C36F48732145B70700CFCE81 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F48722145B70700CFCE81 /* HomeController.swift */; };
 		C3F541FE2145AAF5007F4920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F541FD2145AAF5007F4920 /* AppDelegate.swift */; };
 		C3F542002145AAF5007F4920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F541FF2145AAF5007F4920 /* ViewController.swift */; };
 		C3F542032145AAF5007F4920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F542012145AAF5007F4920 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C36F48722145B70700CFCE81 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C3F541FA2145AAF5007F4920 /* TwitterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F541FD2145AAF5007F4920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F541FF2145AAF5007F4920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				C3F541FD2145AAF5007F4920 /* AppDelegate.swift */,
 				C3F541FF2145AAF5007F4920 /* ViewController.swift */,
+				C36F48722145B70700CFCE81 /* HomeController.swift */,
 				C3F542012145AAF5007F4920 /* Main.storyboard */,
 				C3F542042145AAF9007F4920 /* Assets.xcassets */,
 				C3F542062145AAF9007F4920 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				C3F542002145AAF5007F4920 /* ViewController.swift in Sources */,
 				C3F541FE2145AAF5007F4920 /* AppDelegate.swift in Sources */,
+				C36F48732145B70700CFCE81 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
