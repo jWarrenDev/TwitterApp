@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // set the background color to green
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
