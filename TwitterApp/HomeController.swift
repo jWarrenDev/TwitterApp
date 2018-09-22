@@ -14,7 +14,26 @@ class WordCell: UICollectionViewCell {
     // This gets called when we need to dequeue a cell
     override init(frame: CGRect) {
         super.init(frame: frame)
+        setupViews()
+    }
+    // set label and mask
+    let wordLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Test Jerrick Test"
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
+    
+    func setupViews() {
         backgroundColor = .yellow
+        
+        // provide constraints and anchors for word label
+        addSubview(wordLabel)
+        wordLabel.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        wordLabel.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        wordLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        wordLabel.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
         
     }
     
@@ -51,7 +70,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         
         // cells are transparent when initialized.  Gave them a color
         // Cell is being changed to blue immediately after being set to yellow.
-        cell.backgroundColor = .blue
+        // cell.backgroundColor = .blue
        
         
         return cell
